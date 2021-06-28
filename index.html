@@ -9,19 +9,18 @@
     </head>
     <body>
         <form>
-            <label for="userInput">Enter Message:</label><br />
-            <!--<input type="text" class="form-control" id="userInput" name="userInput" placeholder="Type your message here...?" autofocus="autofocus" oninput="encode()">-->
+            <label for="userInput">Enter Message:</label><br>
             <textarea id="userInput" rows="4" cols="50" oninput="enCode()"></textarea>
-            <br/>
+            <br>
             <label for="encode">Encode:</label>
             <input type="radio" name="code" id="encode" checked onchange="enCode()" />
             <label for="decode">Decode:</label>
             <input type="radio" name="code" id="decode" onchange="deCode()" />
-            <br/>
+            <br>
             <label for="userShift">Key:</label>
-            <input type="number" min="1" max="25" id="userShift" value=1 onchange="enCode()" />
-            <br/>
-            <label for="newMessage">Output:</label><br />
+            <input type="number" min="0" max="25" id="userShift" value=1 onchange="enCode()" />
+            <br>
+            <label for="newMessage">Output:</label><br>
             <textarea id="newMessage" rows="4" cols="50"></textarea>
         </form>
 
