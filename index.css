@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+.card {
+    background-color: indigo;
+}
+
+#userInput, #newMessage {
+    background-color: papayawhip;
+}
