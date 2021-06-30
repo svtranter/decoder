@@ -15,7 +15,7 @@ function deCode() {
         for (j = 0; j < alphabet.length; j++) {
             
             if (lowerInput.charAt(i) == alphabet[j]) {
-                if (j < (0 + k)) {
+                if (j <= (0 + k)) {
                     newArray.push(alphabet[(j-k+26)]);
                 } else {
                 newArray.push(alphabet[j-k]);
